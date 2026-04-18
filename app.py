@@ -29,4 +29,4 @@ with gr.Blocks(title="Pocket Agent") as demo:
     submit.click(chat, [msg, chatbot], [msg, chatbot])
     clear.click(clear_chat, outputs=[chatbot])
 
-demo.launch(True)
+demo.launch(share=True)
